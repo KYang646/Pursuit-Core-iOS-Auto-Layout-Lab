@@ -22,28 +22,36 @@
                                 <rect key="frame" x="207" y="44" width="207" height="818"/>
                                 <color key="backgroundColor" red="0.54677283750000005" green="0.0" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </view>
-                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="S7i-Cr-42C" userLabel="Teal1">
-                                <rect key="frame" x="0.0" y="44" width="207" height="202"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="S7i-Cr-42C" userLabel="Teal1">
+                                <rect key="frame" x="0.0" y="44" width="207" height="224"/>
                                 <color key="backgroundColor" red="0.0" green="1" blue="0.71632457309999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </view>
-                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jSI-g1-vnE" userLabel="Teal2">
-                                <rect key="frame" x="0.0" y="352" width="207" height="202"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jSI-g1-vnE" userLabel="Teal2">
+                                <rect key="frame" x="0.0" y="341" width="207" height="224"/>
                                 <color key="backgroundColor" red="0.0" green="1" blue="0.71632457309999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </view>
-                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fdy-zM-HHL" userLabel="Teal3">
-                                <rect key="frame" x="0.0" y="660" width="207" height="202"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fdy-zM-HHL" userLabel="Teal3">
+                                <rect key="frame" x="0.0" y="638" width="207" height="224"/>
                                 <color key="backgroundColor" red="0.0" green="1" blue="0.71632457309999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="jSI-g1-vnE" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="1Lm-6x-7UU"/>
+                            <constraint firstItem="jSI-g1-vnE" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="0ta-4H-7Z8"/>
                             <constraint firstItem="Gal-e7-dIs" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="Cf0-Y0-7Z6"/>
+                            <constraint firstItem="fdy-zM-HHL" firstAttribute="width" secondItem="S7i-Cr-42C" secondAttribute="width" id="FGo-ak-DHJ"/>
+                            <constraint firstItem="jSI-g1-vnE" firstAttribute="width" secondItem="S7i-Cr-42C" secondAttribute="width" id="KHP-EU-MJY"/>
+                            <constraint firstItem="S7i-Cr-42C" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.25" id="KJH-9x-6oA"/>
+                            <constraint firstItem="Gal-e7-dIs" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.5" id="O5p-Fu-Off"/>
                             <constraint firstItem="Gal-e7-dIs" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="QuF-xB-rKI"/>
                             <constraint firstItem="jSI-g1-vnE" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="R05-kZ-BBm"/>
                             <constraint firstItem="Gal-e7-dIs" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="RcK-AL-gsD"/>
                             <constraint firstItem="S7i-Cr-42C" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="WCe-qp-tVI"/>
-                            <constraint firstItem="Gal-e7-dIs" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.5" id="s43-G5-KWH"/>
+                            <constraint firstItem="S7i-Cr-42C" firstAttribute="width" secondItem="Gal-e7-dIs" secondAttribute="width" id="aW0-Al-qdP"/>
+                            <constraint firstItem="S7i-Cr-42C" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="czi-vB-YD6"/>
+                            <constraint firstItem="fdy-zM-HHL" firstAttribute="height" secondItem="S7i-Cr-42C" secondAttribute="height" id="l3P-w2-wSt"/>
+                            <constraint firstItem="jSI-g1-vnE" firstAttribute="height" secondItem="S7i-Cr-42C" secondAttribute="height" id="pUT-Db-qho"/>
+                            <constraint firstItem="fdy-zM-HHL" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="w0C-3q-X5x"/>
                             <constraint firstItem="fdy-zM-HHL" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="x9f-zO-4cx"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
