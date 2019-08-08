@@ -18,9 +18,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1F8-CC-uK0" userLabel="Teal">
-                                <rect key="frame" x="121" y="349" width="90" height="90"/>
-                                <color key="backgroundColor" red="0.0" green="1" blue="0.71632457309999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4uV-7M-7h2" userLabel="Purple" colorLabel="IBBuiltInLabel-Orange">
+                                <rect key="frame" x="211" y="349" width="90" height="90"/>
+                                <color key="backgroundColor" red="0.54677283750000005" green="0.0" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Bdr-Ej-EN7" userLabel="green1">
                                 <rect key="frame" x="121" y="262" width="180" height="90"/>
@@ -30,9 +30,9 @@
                                 <rect key="frame" x="121" y="438" width="180" height="90"/>
                                 <color key="backgroundColor" red="0.205913439" green="1" blue="0.001635324071" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </view>
-                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4uV-7M-7h2" userLabel="Purple" colorLabel="IBBuiltInLabel-Orange">
-                                <rect key="frame" x="211" y="349" width="90" height="90"/>
-                                <color key="backgroundColor" red="0.54677283750000005" green="0.0" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1F8-CC-uK0" userLabel="Teal">
+                                <rect key="frame" x="121" y="349" width="90" height="90"/>
+                                <color key="backgroundColor" red="0.0" green="1" blue="0.71632457309999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -50,7 +50,7 @@
                             <constraint firstItem="4uV-7M-7h2" firstAttribute="height" secondItem="1F8-CC-uK0" secondAttribute="height" id="YlP-8e-En8"/>
                             <constraint firstItem="1F8-CC-uK0" firstAttribute="top" secondItem="Bdr-Ej-EN7" secondAttribute="bottom" constant="-3" id="dhP-Pa-gs3"/>
                             <constraint firstItem="4uV-7M-7h2" firstAttribute="width" secondItem="1F8-CC-uK0" secondAttribute="width" id="iHt-GP-OLv"/>
-                            <constraint firstItem="Bdr-Ej-EN7" firstAttribute="width" secondItem="1F8-CC-uK0" secondAttribute="width" multiplier="2" constant="90" id="jXZ-p2-OzQ"/>
+                            <constraint firstItem="Bdr-Ej-EN7" firstAttribute="width" secondItem="1F8-CC-uK0" secondAttribute="width" multiplier="2" id="jXZ-p2-OzQ"/>
                             <constraint firstItem="Bdr-Ej-EN7" firstAttribute="height" secondItem="1F8-CC-uK0" secondAttribute="height" id="o3Q-Ro-bIH"/>
                             <constraint firstItem="1F8-CC-uK0" firstAttribute="leading" secondItem="S3f-Sk-ROm" secondAttribute="leading" id="uaO-oD-lWh"/>
                             <constraint firstItem="4uV-7M-7h2" firstAttribute="trailing" secondItem="S3f-Sk-ROm" secondAttribute="trailing" id="xRn-AU-sre"/>
